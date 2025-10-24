@@ -26,11 +26,15 @@
     <div id="bgg" class="w-full md:h-screen h-96">
       <nav class="bg-red-950 text-white md:p-8 p-5 w-full">
         <ul class="flex justify-evenly items-center">
-          <li class="text-lg hover:text-fuchsia-600 cursor-pointer ">SPECIALS</li>
-          <li class="text-lg hover:text-fuchsia-600 cursor-pointer ">ABOUT</li>
-          <li class="text-lg hover:text-fuchsia-600 cursor-pointer ">MENU</li>
-          <li class="text-lg hover:text-fuchsia-600 cursor-pointer ">CHEF</li>
-          <li class="text-lg hover:text-fuchsia-600 cursor-pointer ">CONTACT</li>
+          <li class="text-lg hover:text-fuchsia-600 cursor-pointer ">
+            <a href="#specials">SPECIALS</a></li>
+          <li class="text-lg hover:text-fuchsia-600 cursor-pointer ">
+            <a href="#about">ABOUT</a></li>
+          <li class="text-lg hover:text-fuchsia-600 cursor-pointer ">
+            <a href="#menu">MENU</a></li>
+          <li class="text-lg hover:text-fuchsia-600 cursor-pointer ">
+          <a href="#contact">CONTACT</a>  
+          </li>
         </ul>
       </nav>
       <div class="flex justify-center items-center w-full flex-col text-white pt-80">
@@ -40,7 +44,7 @@
     </div>
   </div>
   <!-- our special -->
-  <div class="flex justify-center items-center flex-col">
+  <div id="specials" class="flex justify-center items-center flex-col">
     <h1 class="text-4xl my-6">OUR SPECIAL</h1>
     <div class="w-40 h-1 bg-red-500"></div>
 
@@ -80,7 +84,7 @@
   </div>
 
   <!-- our story image-->
-  <div class="my-20 bg-slate-200">
+  <div id="about" class="my-20 bg-slate-200">
     <div class="md:grid grid-cols-2">
       <div>
         <img
@@ -105,7 +109,7 @@
   </div>
 
   <!-- Menu -->
-  <div class="my-10">
+  <div id="menu" class="my-10">
     <div class="flex justify-center items-center flex-col">
       <h1 class="text-5xl">MENU</h1>
       <div class="w-30 my-6 h-1 bg-red-500"></div>
@@ -233,7 +237,7 @@
   </div>
 
   <!-- Contact Form -->
-  <div class="flex flex-col items-center text-center mt-10">
+  <div id="contact" class="flex flex-col items-center text-center mt-10">
     <h1 class="text-2xl font-semibold">SEND US A MESSAGE</h1>
     <div class="w-20 md:w-40 h-1 my-4 bg-red-500"></div>
 
